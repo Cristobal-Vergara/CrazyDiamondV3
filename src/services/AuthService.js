@@ -1,5 +1,5 @@
 export const login = async (email, password) => {
-  const response = await fetch('http://34.227.228.64:3000/auth/login', {
+  const response = await fetch('http://54.221.37.172:3000/auth/login', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ email, password })

@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // 1. Crear una instancia de Axios
 const api = axios.create({
-    baseURL: 'http://34.227.228.64:3000'
+    baseURL: 'http://54.221.37.172:3000/'
 });
 
 // 2. Configurar el Interceptor
