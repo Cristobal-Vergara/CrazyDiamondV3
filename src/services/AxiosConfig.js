@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // 1. Crear una instancia de Axios
 const api = axios.create({
-    baseURL: 'http://54.221.37.172:3000/'
+    baseURL: 'https://crazydiamondv4-production.up.railway.app'
 });
 
 // 2. Configurar el Interceptor
